@@ -87,9 +87,9 @@
  .section-5 .contact {
     width: 100%;
     position: initial;
-    width: initial;
+    
     height: initial;
-    margin: 80px;
+    margin: 39px;
     margin-top: 15px;
   }
 
@@ -104,7 +104,6 @@
   
   .quote{
     padding: 2em;
-    padding-top: 30em;
   }
 
   footer .row .col-md-2 {
@@ -118,5 +117,8 @@
   .sticky{
     position: absolute;
   }
-
+  .form-container{
+    width: 80%!important;
+  }
+}
 

@@ -278,19 +278,20 @@ header .btn {
 }
 
 .contact {
-  width: 40%;
+  
   padding: 4vmin;
   padding-top: 2vmin;
   margin-left: 30px;
   box-sizing: border-box;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  float: left;
+  
 }
 
 .contact h2 {
   color: #666;
   text-align: center;
   font-size: 20px;
+  color: white;
 }
 .input-field {
   position: relative;
@@ -305,7 +306,7 @@ header .btn {
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid #fff;
   font-size: 12px;
   color: whitesmoke;
   font-weight: 500;
@@ -318,7 +319,7 @@ header .btn {
   padding: 3px 0;
   pointer-events: none;
   font-size: 12px;
-  color: #666;
+  color: #fff;
   font-weight: 700;
   transition: 0.5s;
 }
@@ -349,11 +350,7 @@ header .btn {
   background: #dd2476;
 }
 
-.quote {
-  width: 50%;
-  margin-left: auto;
-  margin-right: 40px;
-  padding-top: 10em;
+.quote {  
 
   color: whitesmoke;
   padding-top: 10em;
@@ -415,3 +412,4 @@ footer .column i + i {
   z-index: 9999;
   transition: all 1.5s ease;
 }
+
